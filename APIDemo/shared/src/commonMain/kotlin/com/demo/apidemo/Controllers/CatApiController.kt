@@ -28,7 +28,7 @@ class CatApiController {
             url("https://api.thecatapi.com/v1/images/search")
             method = HttpMethod.Get
             headers {
-                append("x-api-key", "568db7f6-f582-4349-97d4-da6aa2fed3e9")
+                append("x-api-key", "<YOUR API KEY HERE>")
             }
         }
     }
